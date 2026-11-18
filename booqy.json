@@ -1,5 +1,20 @@
 {
-  "slug": "",
-  "name": "",
-  "environments": {}
+  "slug": "it-hjalparna-nordic-ab",
+  "name": "IT Hjälparna Nordic AB",
+  "environments": {
+    "prod": {
+      "tenantId": "01m7q29wpe139tv79zmethcysj",
+      "apiBaseUrl": "https://9md43vqnp1.execute-api.eu-north-1.amazonaws.com",
+      "menuImageBaseUrl": "https://d3uasj29icofcs.cloudfront.net",
+      "stripePublishableKey": "pk_live_51U4OrzHzsSv44yFH9URokQcvXUL9JpxZvpG0xaoAphtM8iXQY2PH5p91geUzL57bHcqiKKDgVvVuNWItrJEahEl7004z8NIhOZ",
+      "previewUrl": "https://it-hjalparna-nordic-ab.booqy.se"
+    },
+    "dev": {
+      "tenantId": "01m7q2amr75kt55vhn8cf9m0rm",
+      "apiBaseUrl": "https://dh2m5ildm7.execute-api.eu-north-1.amazonaws.com",
+      "menuImageBaseUrl": "https://d3kaislpxcbglq.cloudfront.net",
+      "stripePublishableKey": "pk_test_51U4OsHHhsMraauJUMyW7ID1lQq1jsS3Pdtzqu04WDgEnJW8VQIvGktIUNMPo8cZNgIRYPafALaLKQxLfckdiXOKX00LbiD1Obc",
+      "previewUrl": "https://it-hjalparna-nordic-ab.dev.booqy.se"
+    }
+  }
 }
