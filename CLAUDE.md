@@ -5,7 +5,7 @@ This file is read automatically by Claude Code. Keep it current: when you finish
 ## State of this repo (updated 2026-11-20)
 
 - IT-hjälparna Nordic AB's site, created from site-template on 2026-11-18. Dev preview: https://it-hjalparna-nordic-ab.dev.booqy.se. Production from `main`.
-- Uses site-kit 0.3.0 (`package.json`).
+- Uses site-kit 0.6.1 (`package.json`).
 - Checkbox override: end of `src/site.css`, commit `e74d511`.
 - `main` and `dev` have no common history. Do not merge or rebase one onto the other without the Booqy owner.
 - Site languages (2026-11-20): the language picker is in the top bar through `src/shared/lang.tsx` (appears with the next site-kit release, see Temporary overrides), header CSS compacted for the picker and made right-to-left safe in `src/site.css`, `translate="no"` on brand and contact data, tests in `src/shared/lang*.test.*`.
